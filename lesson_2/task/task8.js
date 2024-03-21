@@ -8,3 +8,15 @@
 // В очереди: Мария, Саша, Aмфибрахий
 // Вне банка: Иван, Даша
 // console.log('В очереди: ' + queue + '\n ' + 'Вне банка: ' + outside)
+
+const queue = ['Иван', 'Мария', 'Саша', 'Даша']
+const outside = ['Aмфибрахий']
+
+queue.pop()
+queue.shift()
+queue.push('Aмфибрахий')
+
+outside.pop()
+outside.push('Иван',  'Даша')
+
+console.log('В очереди: ' + queue + '\n ' + 'Вне банка: ' + outside)
