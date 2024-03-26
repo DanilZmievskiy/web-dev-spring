@@ -7,7 +7,7 @@ let minIndex
 let maxValue = -Infinity
 let maxIndex
 
-newArr.every((item, index) => {
+newArr.forEach((item, index) => {
 	if (item < minValue) {
 		minValue = item
 		minIndex = index
@@ -18,3 +18,8 @@ newArr.every((item, index) => {
 		maxIndex = index
 	}
 })
+
+newArr[minIndex] = maxValue
+newArr[maxIndex] = minValue
+
+console.log(newArr)
