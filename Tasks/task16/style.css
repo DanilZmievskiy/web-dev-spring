@@ -1,0 +1,54 @@
+body {
+  background-color: #596e79;
+}
+
+div[name="calendar"] {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px 0;
+  background-color: #f0ece2;
+  border: 1px solid transperent;
+  border-radius: 30px;
+}
+
+.month {
+  text-align: center
+}
+
+table, th, td {
+  border: 2px solid #c7b198;;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: #596e79;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+}
+
+th {
+  padding: 4px 4px;
+  color: rgb(0, 153, 204);
+}
+
+td {
+  width: 95px;
+  height: 95px;
+  padding: 5px 5px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.not-current {
+  color: rgba(0, 0, 255, 0.3);
+  font-weight: 300;
+  background-color: #dfd3c3;
+}
+
+.today {
+  color: red;
+}
