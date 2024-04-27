@@ -1,4 +1,4 @@
-// todo: См строки 35, 36, 37
+// todo 17: См строки 35, 36, 37
 
 const игровоеПоле = document.querySelector('div[name="поле"]');
 console.log(игровоеПоле);

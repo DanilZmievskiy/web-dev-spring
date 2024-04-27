@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="./css/tailwind.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="./js/index_bundle.js"></script>
+
+</head>
+<body>
+  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+  name="button-basket"
+  >
+    Корзина
+  </button>
+    <div name="basket"> </div> 
+    <div name="total"> </div>
+</body>
+<!-- <script src="./js/app.js"></script> -->
+
+<!-- <script type="module" src="./js/basket.tpl.js"></script> -->
+<script type="module">
+  // compile the template
+  // console.log(row)
+  // let data = { el : {
+  //   id: 200,
+  //   name: 'Bob',
+  //   price: 1000,
+  //   amount: 2
+  // }}
+
+  // import { row } from "./js/basket.tpl.js"
+  // var template = Handlebars.compile(row);
+  // console.log(template(data));
+  // console.log()
+
+//   let el = {
+//     id: 200,
+//     name: 'Bob',
+//     price: 1000,
+//     amount: 2
+// } 
+
+  // let tpl = Handlebars.compile("<p>{{firstname}} {{lastname}}</p>"); 
+  // // execute the compiled template and print the output to the console
+  // console.log(tpl({ firstname: "Yehuda", lastname: "Katz", }));
+</script>
+
+</html>
